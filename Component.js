@@ -5,9 +5,9 @@ sap.ui.define([
 ], function (UIComponent, JSONModel, ResourceModel) {
    "use strict";
    return UIComponent.extend("sap.ui.demo.wt.Component", {
-            metadata : {
-		rootView: "sap.ui.demo.wt.view.App"
-	},
+      metadata : {
+            manifest: "json"
+      },
       init : function () {
          // call the init function of the parent
          UIComponent.prototype.init.apply(this, arguments);
